@@ -11,6 +11,8 @@ resource "azurerm_resource_group" "tfexample" {
 
 
 
+
+
 # Create a Virtual Network
 resource "azurerm_virtual_network" "tfexample" {
   name                = "my-terraform-vnet"

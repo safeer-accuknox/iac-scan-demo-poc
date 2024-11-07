@@ -19,6 +19,8 @@ provider "azurerm" {
 
 
 
+
+
 resource "azurerm_resource_group" "tfexample" {
   name     = "my-terraform-rg"
   location = "West Europe"
