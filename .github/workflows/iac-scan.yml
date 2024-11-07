@@ -27,5 +27,6 @@ jobs:
           endpoint: ${{ vars.ENDPOINT }}
           tenant_id: ${{ secrets.TENANT_ID}}
           quiet: "true"
+          compact: "true"
           label: "s"
           exit_code: 1
